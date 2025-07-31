@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="initializationVTK">
+      <UniqueIdentifier>{bc83e406-0ade-4d89-97f2-049a4aa3aa04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{6c313206-9dd4-4986-8834-cb970a79dbdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit%28最小单位%29">
+      <UniqueIdentifier>{864b61a7-43ad-4724-a947-84ff3e9c48bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit%28最小单位%29\Cube">
+      <UniqueIdentifier>{776079a0-7fa0-4a53-9008-5ad38bfc29f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit%28最小单位%29\TrapezoidalFrustum">
+      <UniqueIdentifier>{a3009422-207d-4e39-b30c-97ca50c9f083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit%28最小单位%29\SphereUnit">
+      <UniqueIdentifier>{30524fd2-d4d2-467c-b3a5-5798d42cf864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit%28最小单位%29\CylindricalBodyUnit">
+      <UniqueIdentifier>{af4ce48f-2ffd-4280-8dd5-7aceeae9707b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Combination（组合体）">
+      <UniqueIdentifier>{70bcbb73-bf1e-4b16-bcdb-2f1fff7a6a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Combination（组合体）\RubikesCube（魔方）">
+      <UniqueIdentifier>{bf58c08d-27e4-4bb7-bb66-1364132a8faa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Magic_Square.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="Magic_Square.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="Magic_Square.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="Magic_Square.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="initializationVTK\initializationVTK.cpp">
+      <Filter>initializationVTK</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeUnit.cpp">
+      <Filter>Unit%28最小单位%29\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapezoidalFrustum.cpp">
+      <Filter>Unit%28最小单位%29\TrapezoidalFrustum</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalParameterClass.cpp">
+      <Filter>Unit%28最小单位%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereUnit.cpp">
+      <Filter>Unit%28最小单位%29\SphereUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="CylindricalBodyUnit.cpp">
+      <Filter>Unit%28最小单位%29\CylindricalBodyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="RubikesCubeClass.cpp">
+      <Filter>Combination（组合体）\RubikesCube（魔方）</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeUnit.h">
+      <Filter>Unit%28最小单位%29\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapezoidalFrustum.h">
+      <Filter>Unit%28最小单位%29\TrapezoidalFrustum</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalParameterClass.h">
+      <Filter>Unit%28最小单位%29</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereUnit.h">
+      <Filter>Unit%28最小单位%29\SphereUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="CylindricalBodyUnit.h">
+      <Filter>Unit%28最小单位%29\CylindricalBodyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="RubikesCubeClass.h">
+      <Filter>Combination（组合体）\RubikesCube（魔方）</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="initializationVTK\initializationVTK.h">
+      <Filter>initializationVTK</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
